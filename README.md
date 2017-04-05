@@ -35,11 +35,14 @@ for even 4.0 MHz - though the sampling time should be reduced.
     
 **[4]** The frame-rate is dependent on the integration time, the read-out time and the transmission time.
 >  The read-out time is: 
-> t_read = 4*3696 / fM = 14776 / 2.0 MHz = 7.4 ms
->    The transmission time is (minimum):
->        t_tx = 16 bit*3694 / 16 Mbps = 3.7 ms
->    With very short integration times (in the 10-100µs range) the max frame-rate is:
->        frame-rate = 1 / (7.4 ms + 3.7 ms + 100 µs) = 89 Hz
->    In reality the SPI transfer probably takes something like 4.2 ms.
+> > t_read = 4*3696 / fM = 14776 / 2.0 MHz = 7.4 ms
 
-goto to (https://tcd1304.wordpress.com) for details of how to compile
+>    The transmission time is (minimum):
+>  >      t_tx = 16 bit*3694 / 16 Mbps = 3.7 ms
+
+>    With very short integration times (in the 10-100µs range) the max frame-rate is:
+>  >      frame-rate = 1 / (7.4 ms + 3.7 ms + 100 µs) = 89 Hz
+
+In reality the SPI transfer probably takes something like 4.2 ms.
+
+goto to https://tcd1304.wordpress.com for details of how to compile
