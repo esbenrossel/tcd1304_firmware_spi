@@ -1,6 +1,8 @@
 # tcd1304_firmware_spi
 STM32F401RE firmware to drive and read the linear CCD TCD1304DG and TCD1304AP
 
+I've stopped pushing commits. To get the latest version go to https://tcd1304.wordpress.com
+
 #### Specifications:
  - fM-frequency: 2.0 MHz [1]
  - Integration time: 10 µs - 35 min [2]
